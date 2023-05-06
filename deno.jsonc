@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "build": "./proton_xd/.proton_xd/proton_xd build xd",
+    "dev": "./proton_xd/.proton_xd/proton_xd dev xd",
+    "clean": "./proton_xd/.proton_xd/proton_xd clean xd"
+  }
+}
