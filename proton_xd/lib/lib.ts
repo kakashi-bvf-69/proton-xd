@@ -16,13 +16,13 @@ export default class NeutronXD {
   private getFilePath(): string {
     switch(Deno.build.os) {
       case "windows":
-        return "./proton_xd/.bin/windows/webview.exe";
+        return "./proton_xd/bin/windows/webview.exe";
       case "darwin":
-        return "./proton_xd/.bin/darwin/";
+        return "./proton_xd/bin/darwin/";
       case "linux":
-        return "./proton_xd/.bin/linuix/";
+        return "./proton_xd/bin/linuix/";
       default:
-        return "./proton_xd/.bin/linuix/";
+        return "./proton_xd/bin/linuix/";
     }
   }
   /**
